@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background: #222831;
+}
+
+body ul{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*HEADER*/
+
+.header{
+    display: flex;
+}
+
+/*MENU*/
+
+#sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: rgba(7, 7, 7, 0.774);
+    left: -200px;
+    color: #0779e4;
+}
+
+#sidebar.active{
+    left: 0px;
+}
+
+.logo{
+    width: 150px;
+    height:150px;
+}
+
+#sidebar ul li{
+    color: rgba(230, 230, 230, 0.932);
+    text-align: center;
+    padding: 15px 10px;
+    list-style: none;
+}
+
+#sidebar a{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(230, 230, 230, 0.932);
+}
+
+#sidebar .toggle-btn{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#sidebar .toggle-btn span{
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title{
+    display: grid;
+    position: absolute;
+    text-align: center;
+    left: 27%;
+    padding-top: 20%;
+    color: rgba(230, 230, 230, 0.932);
+}
+
+.title h1{
+    text-shadow: 2px 2px 2px #0779e4;
+}
+
+.title i{
+    color: #0779e4;
+    text-shadow: 0px 0px;
+}
+
+.title h3{
+    text-shadow: 2px 1px 2px #95389e;
+}
+
+/*QUIEN SOY?*/
+
+#who-am-I{
+    position: fixed;
+    width: 400px;
+    height: 75%;
+    background: rgba(7, 7, 7, 0.774);
+    left: -400px;
+    color: #0779e4;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px #95389e;
+}
+
+#who-am-I.active{
+    left: 14%;
+}
+
+#who-am-I ul li{
+    color: rgba(230, 230, 230, 0.932);
+    padding: 15px 10px;
+    list-style: none;
+}
+
+.who-btn{
+    cursor: pointer;
+}
+
+#trabajos{
+    position: absolute;
+    top: 100%;
+}
+
+#Contacto{
+    top: 100%;
+    background-color: #30475e;
+    color: rgba(230, 230, 230, 0.932);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    padding-top: 20px;
+    font-size: 27px;
+    justify-content: center;
+}
+
+#Contacto i{
+    padding-top: 6px;
+    padding-left: 8px;
+    color: black;
+    border-radius: 15px;
+}
+
+#social{
+    position: absolute;
+    top: 45%;
+    font-size: 35px;
+}
+
+#social i{
+    color: #202040;
+}
